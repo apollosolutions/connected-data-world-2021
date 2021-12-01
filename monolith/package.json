@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "main": "src/index.js",
+  "dependencies": {
+    "@apollo/federation": "latest",
+    "apollo-datasource": "latest",
+    "apollo-server": "latest",
+    "graphql": "^15.5.0",
+    "faker": "latest"
+  },
+  "devDependencies": {
+    "@apollo/rover": "latest",
+    "dotenv": "latest"
+  },
+  "name": "monolith"
+}
